@@ -4,6 +4,8 @@ import MenuIcon from '@material-ui/icons/Menu'
 import {Link} from 'react-router-dom'
 // Import { Link } here //
 
+//Links added under <ul> via <Link> component. Provides declarative
+//, accessible navigation around your application.
 const Navigation = () => {
     return (
         <AppBar position="relative">

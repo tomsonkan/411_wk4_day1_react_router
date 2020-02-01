@@ -19,6 +19,10 @@ import { Switch, Route } from 'react-router'
 
 
 // Start Router function here //
+//Functional component called `Router` in this file. Will
+// return a `Switch` statement that wraps two `Routes` Home and About.
+//Added /about to end of the url to see about page. Path added to accept
+// id for a specific car
 
 export default function Router() {
 return (

@@ -9,6 +9,11 @@ import {Container, Paper, Chip, Avatar} from '@material-ui/core';
 import DoneIcon from '@material-ui/icons/Done'
 
 
+//To get the specific car we need to access the "id" property
+// from the path. We can do that by accessing it from props with: 
+//`props.match.params.id`.
+//thisCar variable used to find the car that matches the id. Tied to cars.json file
+
 
 const Car = (props) => {
     

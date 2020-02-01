@@ -3,6 +3,9 @@ import { Card, CardContent, CardActions, Divider } from '@material-ui/core'
 import cars from '../cars.json'
 import {Link} from 'react-router-dom'
 
+
+//changed a tag to <Link> componend with "to" property as `/car/${car.id}`. Routed
+//to Car component when click on Link.
 const Home = () => {
     console.log('CARS', cars)
     return (

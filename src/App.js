@@ -5,6 +5,8 @@ import {BrowserRouter,} from 'react-router-dom'
 import Router from './Router'
 // Write imports for Router & BrowserRouter here //
 
+
+//Imporitng <Router> into App.js. Importing <BrowserRouter> as well.
 function App() {
   return (
   <BrowserRouter>
@@ -14,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
